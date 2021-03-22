@@ -83,5 +83,6 @@ server.on('request', (request, response) => {
 });
 
 server.listen(port, hostname, () => {
+    console.log("Server started!")
     console.log(`Server running at http://${hostname}:${port}/`);
 })
