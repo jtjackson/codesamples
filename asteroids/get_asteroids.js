@@ -24,7 +24,7 @@ var req = new http.ClientRequest(options,(res) => {
 });
 
 req.on('error', e => {
-    console.error('problem here is: ' + e);
+    console.error('The error here is: ' + e);
 });
 
 req.write(postData);
